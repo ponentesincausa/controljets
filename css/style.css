@@ -125,6 +125,11 @@ nav .brand-logo {
   color: #444;
 }
 
+.brand-logo img {
+  height: 6rem;
+  margin-top: 0px;
+}
+
 p {
   line-height: 2rem;
 }
@@ -144,6 +149,15 @@ p {
 .top-5 {
   margin-top: 2.5rem;
   margin-left: 1.5rem !important;
+}
+
+.top-2 {
+  margin-top: 1.5rem;
+}
+
+.pad-5 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 .bottom-5 {
@@ -193,6 +207,14 @@ p {
   display: block;
 }
 
+.last-text-cont {
+  width: 85%;
+  margin: auto;
+  display: block;
+  margin-top: 2rem;
+
+}
+
 .parallax-container {
   min-height: 430px;
   line-height: 0;
@@ -215,10 +237,29 @@ p {
   line-height: 1.2rem;
 }
 
-@media only screen and (max-width : 992px) {
+
+
+@media only screen and (max-width : 1200px) {
   .parallax-container .section {
     position: absolute;
     top: 40%;
+  }
+  .p-2, .p-3 {
+    font-size: 2rem;
+
+  }
+  .bottom-5 {
+    margin-bottom: 1rem;
+  }
+  .block-text {
+    margin-top: 0;
+  }
+  .map-sm {
+    display: none;
+  }
+  .last-text-cont {
+    position: absolute;
+    top: 0 !important;
   }
   .jumbo-container .section {
     position: absolute;
@@ -226,6 +267,9 @@ p {
   }
   #index-banner .section {
     top: 10%;
+  }
+  .bigger-height {
+    height: 900px !important;
   }
 }
 
