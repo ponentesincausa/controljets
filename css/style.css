@@ -7,11 +7,11 @@
  */
 
 * {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .type {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 #ship {
@@ -19,7 +19,7 @@
   width: 100%;
   display: inline-block;
   vertical-align: middle;  /* vertical alignment of the inline element */
-  font: 16px/1 'Open Sans' sans-serif;
+  font: 16px/1 'Montserrat' sans-serif;
 }
 
 #ship800 {
@@ -102,16 +102,49 @@ p {
   color: #26a69a;
 }
 
+.jumbo-container {
+  min-height: 430px;
+  line-height: 0;
+  color: rgba(255,255,255,.9);
+  position: relative;
+  overflow: hidden;
+  height: 750px;
+}
+.jumbo-container .section {
+  width: 100%;
+}
+
+.jumbo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.centralize {
+  margin-top: 25%;
+}
+
+.jumbo-img {
+  height: 100%;
+  width: 100%;
+
+}
+
 .parallax-container {
   min-height: 430px;
   line-height: 0;
   height: auto;
   color: rgba(255,255,255,.9);
+
 }
 
 
   .parallax-container .section {
     width: 100%;
+    position: relative;
   }
 
 .centered-height {
@@ -124,6 +157,10 @@ p {
 
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  .jumbo-container .section {
     position: absolute;
     top: 40%;
   }
