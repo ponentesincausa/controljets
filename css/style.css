@@ -237,7 +237,9 @@ p {
   line-height: 1.2rem;
 }
 
-
+.toluca {
+  text-align: left;
+}
 
 @media only screen and (max-width : 1200px) {
   .parallax-container .section {
@@ -246,7 +248,10 @@ p {
   }
   .p-2, .p-3 {
     font-size: 2rem;
-
+    line-height: 2rem;
+  }
+  .toluca {
+    text-align: center;
   }
   .bottom-5 {
     margin-bottom: 1rem;
