@@ -59,6 +59,10 @@ nav img {
   margin-bottom: .5rem;
 }
 
+.letter-spacing {
+  letter-spacing: 5px;
+}
+
 .weight-black {
   font-weight: 600;
 }
@@ -76,6 +80,10 @@ nav img {
 
 .emph {
   font-weight: bold;
+}
+
+.jumbo-emph {
+  font-weight: 600;
 }
 
 .sm {
@@ -124,13 +132,19 @@ p {
 }
 
 .centralize {
-  margin-top: 25%;
+  margin-top: 20%;
 }
 
 .jumbo-img {
   height: 100%;
   width: 100%;
 
+}
+
+.jumbo-text-cont {
+  width: 85%;
+  margin: auto;
+  display: block;
 }
 
 .parallax-container {
