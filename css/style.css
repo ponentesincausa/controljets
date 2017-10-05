@@ -10,6 +10,27 @@
   font-family: 'Montserrat', sans-serif;
 }
 
+.sm-icon {
+  display: inline-block;
+  height: 5rem;
+  width: auto;
+  fill: white !important;
+  margin-top: 2rem;
+}
+
+.block-text {
+  margin-top: 2rem;
+  padding-left: 3rem !important;
+}
+
+.bigger-height {
+  height: 700px !important;
+}
+
+.sm-icon path {
+    fill: white !important;
+}
+
 .type {
   font-family: 'Montserrat', sans-serif;
 }
@@ -75,7 +96,7 @@ nav img {
   bottom: 0;
   left: 0;
   background-image: linear-gradient(to bottom right,#002f4b,#3d0172);
-  opacity: .3;
+  opacity: .5;
   }
 
 .emph {
@@ -89,6 +110,8 @@ nav img {
 .sm {
   font-size: .7rem;
 }
+
+
 
 .sm-pic {
   width: 100%;
@@ -104,6 +127,27 @@ nav .brand-logo {
 
 p {
   line-height: 2rem;
+}
+
+.p-2 {
+  font-size: 1rem;
+  margin: 0rem 0 0 0;
+  font-weight: 500;
+}
+
+.p-3 {
+  font-size: 1rem;
+  margin: 0rem 0 0 0;
+  font-weight: 700;
+}
+
+.top-5 {
+  margin-top: 2.5rem;
+  margin-left: 1.5rem !important;
+}
+
+.bottom-5 {
+  margin-bottom: 2rem;
 }
 
 .button-collapse {
@@ -134,6 +178,8 @@ p {
 .centralize {
   margin-top: 20%;
 }
+
+
 
 .jumbo-img {
   height: 100%;
