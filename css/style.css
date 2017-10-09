@@ -169,7 +169,7 @@ p {
 }
 
 .jumbo-container {
-  min-height: 430px;
+  min-height: 630px;
   line-height: 0;
   color: rgba(255,255,255,.9);
   position: relative;
@@ -281,6 +281,29 @@ p {
 @media only screen and (max-width : 600px) {
   #index-banner .section {
     top: 0;
+  }
+.p-2, .p-3 {
+  font-size: 1.5rem;
+}
+  .header1 {
+    font-size: 14px;
+  }
+  .header2 {
+    font-size: 18px;
+  }
+
+  .jumbo-img {
+    height: 100%;
+    width: auto;
+
+  }
+  .jumbo-container {
+    min-height: 330px;
+    overflow: hidden;
+    height: 400px;
+  }
+  .jumbo-container .section {
+    width: 100%;
   }
 }
 
