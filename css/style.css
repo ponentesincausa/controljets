@@ -9,13 +9,24 @@
 * {
   font-family: 'Montserrat', sans-serif;
 }
+.frame {
+    height: 5rem;      /* equals max image height */
+    /*width: 160px;*/
+    white-space: nowrap; /* this is required unless you put the helper span closely near the img */
 
+    text-align: center; margin: 1em 0;
+}
+.helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
 .sm-icon {
   display: inline-block;
   height: 5rem;
   width: auto;
   fill: white !important;
-  margin-top: 2rem;
+  vertical-align: middle;
 }
 
 .block-text {
@@ -135,13 +146,13 @@ p {
 }
 
 .p-2 {
-  font-size: 1rem;
+  font-size: 2rem;
   margin: 0rem 0 0 0;
   font-weight: 500;
 }
 
 .p-3 {
-  font-size: 1rem;
+  font-size: 2rem;
   margin: 0rem 0 0 0;
   font-weight: 700;
 }
@@ -238,7 +249,17 @@ p {
 }
 
 .toluca {
-  text-align: left;
+  text-align: left !important;
+}
+
+.height100 {
+  height: 100%;
+  display: inline-block;
+}
+
+.vertical {
+
+  vertical-align: middle;
 }
 
 @media only screen and (max-width : 1200px) {
