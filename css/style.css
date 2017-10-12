@@ -263,6 +263,45 @@ p {
   vertical-align: middle;
 }
 
+.icon-wrapper {
+  height: 5rem;
+  width: 5rem;
+  float: left;
+}
+
+.icon-s {
+  height: 4.7rem;
+  fill: blue;
+  margin-top: .5rem;
+}
+
+.servicios {
+  display: inline-block;
+  margin-left: 1rem;
+  margin-top: 1rem;
+}
+
+.servicios-text {
+  font-size: 1rem;
+  line-height: 1rem;
+  margin: 5px 0;
+}
+
+
+.servicios-text-bold {
+  font-size: 1.2rem;
+  font-weight: bold;
+    margin: 5px 0;
+}
+
+.servicios-row {
+  margin-bottom: 1rem;
+}
+
+.servicios-item {
+  display: block;
+}
+
 @media only screen and (max-width : 1200px) {
   .parallax-container .section {
     position: absolute;
@@ -300,6 +339,24 @@ p {
   }
 }
 
+@media only screen and (max-width : 1305px) {
+  /*.servicios-text {
+    font-size: .8rem;
+  }
+  .servicios-text-bold {
+    font-size: 1rem;
+  }*/
+  .icon-wrapper, .icon-s, .servicios {
+    display: block;
+    margin: auto;
+  }
+
+  .servicios {
+    margin-left: 6rem;
+  }
+
+}
+
 @media only screen and (max-width : 600px) {
   #index-banner .section {
     top: 0;
@@ -307,6 +364,14 @@ p {
 .p-2, .p-3 {
   font-size: 1.5rem;
 }
+.servicios-row {
+  margin-bottom: 0rem;
+}
+
+.servicios-wrapper {
+  margin-bottom: 1rem;
+}
+
   .header1 {
     font-size: 14px;
   }
