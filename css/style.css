@@ -206,6 +206,11 @@ p {
   margin-top: 1.5rem;
 }
 
+.top-5 {
+  margin-top: 20%;
+}
+
+
 .pad-5 {
   padding-top: 2rem;
   padding-bottom: 2rem;
@@ -353,6 +358,7 @@ p {
     position: absolute;
     top: 40%;
   }
+
   .p-2, .p-3 {
     font-size: 2rem;
     line-height: 2rem;
@@ -414,6 +420,7 @@ p {
   margin-bottom: 0rem;
 }
 
+
 .servicios-wrapper {
   margin-bottom: 1rem;
 }
@@ -450,6 +457,13 @@ p {
 footer.page-footer {
   margin: 0;
 }
+
+@media only screen and (max-width : 450px) {
+  .top-5 {
+    margin-top: 40%;
+    }
+}
+
 
 @font-face {
     font-family: 'si';
