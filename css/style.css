@@ -232,6 +232,9 @@ p {
   overflow: hidden;
   height: 750px;
 }
+.down {
+  margin-top: 7rem;
+}
 .jumbo-container .section {
   width: 100%;
 }
@@ -286,7 +289,10 @@ p {
 
 }
 
-
+.nav-fix {
+  position: fixed !important;
+  z-index: 1000;
+}
   .parallax-container .section {
     width: 100%;
     position: relative;
@@ -421,6 +427,7 @@ p {
 }
 
 
+
 .servicios-wrapper {
   margin-bottom: 1rem;
 }
@@ -461,7 +468,7 @@ footer.page-footer {
 .aviation-icons img {
   height: 5rem;
   width: auto;
-  margin-right: 1rem; 
+  margin-right: 1rem;
 }
 
 @media only screen and (max-width : 450px) {
