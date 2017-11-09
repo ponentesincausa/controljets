@@ -415,6 +415,11 @@ p {
 
 }
 
+.parallax img {
+    @media #{$small-and-down} { max-width: 200%; }
+    @media #{$medium-and-up} { width: 100%; }
+}
+
 @media only screen and (max-width : 600px) {
   #index-banner .section {
     top: 0;
@@ -448,12 +453,12 @@ p {
     width: 100%;
   }
 
-  div.parallax-container {
+  /*div.parallax-container {
     min-height: 215px;
-  }
+  }*/
   .jumbo-img {
     transform: translateX(-7%);
-    width: 160%;
+    width: 140%;
     height: 100%;
   }
 }
