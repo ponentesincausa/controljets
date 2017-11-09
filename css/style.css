@@ -439,11 +439,6 @@ p {
     font-size: 18px;
   }
 
-  .jumbo-img {
-    height: 100%;
-    width: auto;
-
-  }
   .jumbo-container {
     min-height: 330px;
     overflow: hidden;
@@ -451,6 +446,15 @@ p {
   }
   .jumbo-container .section {
     width: 100%;
+  }
+
+  div.parallax-container {
+    min-height: 215px;
+  }
+  .jumbo-img {
+    transform: translateX(-7%);
+    width: 160%;
+    height: 100%;
   }
 }
 
