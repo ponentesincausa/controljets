@@ -5,12 +5,6 @@
 <changefreq>yearly</changefreq>
 <priority>1.00</priority>
 </url>
-<url>
-<loc>http://controljets.com/cotiza-ya.html</loc>
-<lastmod>2017-10-30T02:28:34+00:00</lastmod>
-<changefreq>yearly</changefreq>
-<priority>0.80</priority>
-</url>
 </urlset>
 <loc>http://controljets.com/blog.html</loc>
 <lastmod>2017-11-14T02:28:34+00:00</lastmod>
@@ -18,3 +12,10 @@
 <priority>0.90</priority>
 </url>
 </urlset>
+<url>
+<loc>http://controljets.com/cotiza-ya.html</loc>
+<lastmod>2017-10-30T02:28:34+00:00</lastmod>
+<changefreq>yearly</changefreq>
+<priority>0.80</priority>
+</url>
+
