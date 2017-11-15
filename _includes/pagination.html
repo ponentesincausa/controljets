@@ -1,21 +1,16 @@
 <div class="container">
-  <div class="pagination" role="pagination">
-    {% if paginator.total_pages > 1 %}
-    <ul>
-      {% if paginator.previous_page %}
-        {% if paginator.previous_page == 1 %}
-        <p><a class="newer-posts" href="{{ site.baseurl }}/"><i class="fa fa-long-arrow-left" aria-hidden="true"></i></a></p>
-        {% else %}
-        <p><a class="newer-posts" href="{{ site.baseurl }}/page/{{ paginator.previous_page }}/"><i class="fa fa-long-arrow-left" aria-hidden="true"></i></a></p>
-        {% endif %}
-      {% endif %}
-
-      <p><span class="page-number">Page {{paginator.page}} of {{paginator.total_pages}}</span></p>
-
-      {% if paginator.next_page %}
-      <p><a class="older-posts" href="{{ site.baseurl }}/page/{{ paginator.next_page }}/"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></a></p>
-      {% endif %}
-    </ul>
-    {% endif %}
+  <div id="post-nav">
+      <div >
+          {% if page.previous.url %}
+          <a class="prev" href="{{page.previous.url}}">
+              <span>&lt; {{page.previous.title}}</span>
+          </a>
+          {% endif %}
+          {% if page.next.url %}
+          <a class="next" href="{{page.next.url}}">
+              <span>{{page.next.title}} &gt;</span>
+          </a>
+          {% endif %}
+      </div>
   </div>
 </div>
