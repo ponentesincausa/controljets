@@ -10,6 +10,15 @@
 * {
   font-family: 'Montserrat', sans-serif;
 }
+
+html, body {
+  height: 100vh;}
+
+main {
+  min-height: 90%;
+  margin-top: 7rem;
+}
+
 .frame {
     height: 5rem;      /* equals max image height */
     /*width: 160px;*/
@@ -29,6 +38,15 @@
   width: auto;
   fill: white !important;
   vertical-align: middle;
+}
+
+.top-25 {
+  margin-top: 2.5rem;
+  margin-left: 20px !important;
+}
+
+.map-icon {
+  margin-left: -10px;
 }
 
 .block-text {
@@ -249,7 +267,7 @@ p {
 }
 
 .centralize {
-  margin-top: 10%;
+  margin-top: 5%;
 }
 
 .hover-link {
@@ -291,6 +309,7 @@ p {
 
 .nav-fix {
   position: fixed !important;
+  top: 0;
   z-index: 1000;
 }
   .parallax-container .section {

@@ -1,0 +1,31 @@
+{% include head.html %}
+
+<body itemscope="" itemtype="http://schema.org/WebPage"><span itemscope itemtype="http://schema.org/Service">
+  <script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Organization",
+  "name": "Control Jets",
+  "url": "http://controljets.com",
+  "sameAs": [
+    "http://www.facebook.com/controljets",
+    "http://instagram.com/yourProfile",
+    "https://www.linkedin.com/in/control-jets-840a77150"
+  ]
+}
+</script>
+
+    {% include header.html %}
+
+<main>
+
+      {{ content }}
+
+</main>
+    {% include footer.html %}
+
+    {% include script.html %}
+
+
+</body>
+</html>
