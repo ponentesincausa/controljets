@@ -16,8 +16,8 @@
 title: Control Jets - Vuelos Privados
 email: controljets@gmail.com
 description: Renta un jet privado en México para cualquier ocasión. Vuelos nacionales e internacionales. Membresías desde 20 horas, carga aérea y más. ¡Cotiza ya!.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/controljets" # the subpath of your site, e.g. /blog
+url: "http://ponentesincausa.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
 
