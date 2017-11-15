@@ -3,7 +3,7 @@ layout: post
 title:  Un vuelo en un Jet privado, ¿puede ser más barato que un billete de avión?
 date:   2017-11-08 13:48:00 -0600
 description: ¿Un billete en un vuelo privado puede estar en el mismo rango de precios que un billete de avión? # Add post description (optional)
-img: 3.jpg # Add image post (optional)
+img: 3-min.jpg # Add image post (optional)
 categories: aviación privada jets
 tags: [jets, aviación privada, jet charter, viajar]
 ---

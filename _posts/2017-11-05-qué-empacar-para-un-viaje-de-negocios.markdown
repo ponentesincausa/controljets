@@ -3,7 +3,7 @@ layout: post
 title:  Qué empacar para un viaje de negocios
 date:   2017-11-05 13:48:00 -0600
 description: Te presentamos los artículos indispensables que no puedes olvidar antes de partir en un viaje de este tipo. # Add post description (optional)
-img: 4.jpg # Add image post (optional)
+img: 4-min.jpg # Add image post (optional)
 categories: aviación privada jets
 tags: [jets, aviación privada, jet charter, viajar]
 ---
