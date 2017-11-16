@@ -2,7 +2,7 @@
 layout: page
 title: Blog
 custom_css: blog
-permalink: /blog/
+permalink: /blog.html
 pagination:
   enabled: true
 ---
