@@ -88,7 +88,7 @@ PLATFORMS
 DEPENDENCIES
   jekyll (~> 3.6.2)
   jekyll-feed (~> 0.6)
-  jekyll-minifier
+  jekyll-minifier (~> 0.1.5)
   jekyll-paginate
   jekyll-sitemap
   jemoji
