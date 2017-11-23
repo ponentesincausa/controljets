@@ -1,12 +1,3 @@
-/* Custom Stylesheet */
-/**
- * Use this file to override Materialize files so you can update
- * the core Materialize files in the future
- *
- * Made By MaterializeCSS.com
- */
-
-
 * {
   font-family: 'Montserrat', sans-serif;
 }
@@ -264,7 +255,10 @@ p {
   right: 0;
   bottom: 0;
   z-index: -1;
+
 }
+
+
 
 .centralize {
   margin-top: 5%;
@@ -282,7 +276,10 @@ p {
 .jumbo-img {
   height: 100%;
   width: 100%;
-
+  background-size: cover;
+  background-image: url("/assets/img/bg22-min.png");
+  background-position: center center;
+  background-repeat: no-repeat;
 }
 
 .jumbo-text-cont {
@@ -476,9 +473,10 @@ p {
     min-height: 215px;
   }*/
   .jumbo-img {
-    transform: translateX(-7%);
+    /*transform: translateX(-7%);
     width: 140%;
-    height: 100%;
+    height: 100%;*/
+      background-image: url("/assets/img/bg22-min.png");
   }
 }
 
@@ -506,7 +504,11 @@ footer.page-footer {
 
 @media only screen and (max-width : 450px) {
   .top-5 {
-    margin-top: 40%;
+    margin-top: 45%;
+
+    }
+    .jumbo-img {
+      background-image: url("/assets/img/bg-jumbo-sm.jpg");
     }
 }
 
