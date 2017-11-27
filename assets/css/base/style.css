@@ -601,3 +601,10 @@ footer.page-footer {
 .soc-whatsapp:before {
     content:'\e01b';
 }
+
+.soc-twitter {
+    background-color: #4da7de;
+}
+.soc-twitter:before {
+    content:'\e040';
+}
