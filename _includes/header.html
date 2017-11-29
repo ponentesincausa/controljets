@@ -19,7 +19,7 @@
     </ul>
 
     <ul id="nav-mobile" class="side-nav">
-      <li><a href="#/nuestra-flota">Nuestra flota</a></li>
+      <li><a href="{{ '/' | relative_url }}#nuestra-flota">Nuestra flota</a></li>
       {% if page_paths %}
           {% for path in page_paths %}
             {% assign my_page = site.pages | where: "path", path | first %}
@@ -28,7 +28,6 @@
               {% endif %}
           {% endfor %}
       {% endif %}
-      <li><a href="cotiza-ya.html">Cotización inmediata</a></li>
       <li><a href="https://paypal.me/controljets">Pago seguro</a></li>
       <!-- <li><a href="https://medium.com/@controljets">Blog</a></li> -->
     </ul>
