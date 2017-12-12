@@ -2,7 +2,7 @@
   <div class="section no-pad-bot last-text-cont">
     <div class="container">
       <div class="row">
-        <h3 class="header col s12 light emph center letter-spacing">COTIZACIÓN INMEDIATA</h3>
+        <h3 class="header col s12 light emph center letter-spacing uppercase">{{ site.data.closer[page.lang].title }}</h3>
       </div>
       <div class="row">
         <div class="col s12 xl5 center">
@@ -13,11 +13,11 @@
 
             </div>
             <div class="col s12 xl9 top-25">
-              <p class="light p-3 toluca">Aeropuerto Internacional de Toluca</p>
-              <p class="light p-2 toluca">Toluca de Lerdo</p>
+              <p class="light p-3 toluca">{{ site.data.closer[page.lang].airport }}</p>
+              <p class="light p-2 toluca">{{ site.data.closer[page.lang].airport-liner }}</p>
             </div>
           </div>
-          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15058.788204472048!2d-99.5698355!3d19.3389479!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x32b410ec2b6e1e99!2sAeropuerto+Internacional+de+Toluca!5e0!3m2!1ses-419!2smx!4v1507176511053" class="map-sm" width="400" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
+          <iframe src="{{ site.data.closer[page.lang].airport-link }}" class="map-sm" width="400" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
         </div>
         <div class="col s12 xl7 block-text">
           <div class="row bottom-5">
@@ -35,7 +35,7 @@
               <img src="/assets/img/icon-email.svg" alt="map icon" class="sm-icon">
             </div>
             <div class="col s12 xl10">
-              <h4 class="emph p-3">Correo</h4>
+              <h4 class="emph p-3">{{ site.data.closer[page.lang].email }}</h4>
               <h4 class="light p-2"><a class="hover-link" href="mailto:controljets@gmail.com">controljets@gmail.com</a></h4>
             </div>
           </div>

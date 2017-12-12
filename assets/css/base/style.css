@@ -10,6 +10,7 @@ main {
   margin-top: 7rem;
 }
 
+.uppercase { text-transform: uppercase; }
 .frame {
     height: 5rem;      /* equals max image height */
     /*width: 160px;*/

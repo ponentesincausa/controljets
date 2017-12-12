@@ -1,0 +1,28 @@
+es:
+  name: Servicios
+  first: Vuelos nacionales e internacionales
+  first-description: Ya sea por negocios o placer
+  second: Filmaciones
+  second-description: Aviones y hangares como locación
+  third: Membresías de vuelo
+  third-description: Desde 20 horas
+  fourth: Siempre disponibles
+  fourth-description: Disponibilidad las 24 horas, los 365 días
+  fifth: Carga aérea
+  fifth-description: Jets de transporte con tiempo crítico de entrega
+  sixth: Seguridad y discreción
+  sixth-description: Tenemos los más altos estándares de seguridad
+en:
+  name: Services
+  first: National and international flights
+  first-description: Either for business or leisure
+  second: Film location
+  second-description: Aircraft and hangars as a film location
+  third: Flight memberships
+  third-description: Starting from 20 hour packages
+  fourth: Always available
+  fourth-description: We are available 24/7, all year round
+  fifth: Air freight
+  fifth-description: Cargo jets with critical delivery time
+  sixth: Security and discretion
+  sixth-description: We have the highest security standards

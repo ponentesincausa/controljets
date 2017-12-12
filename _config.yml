@@ -13,11 +13,17 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Control Jets - Vuelos Privados
+title:
+  es: Control Jets - Vuelos Privados
+  en: Control Jets - Private flights
 email: controljets@gmail.com
-description: Renta un jet privado en México para cualquier ocasión. Vuelos nacionales e internacionales. Membresías desde 20 horas, carga aérea y más. ¡Cotiza ya!.
+description:
+  es: Renta un jet privado en México para cualquier ocasión. Vuelos nacionales e internacionales. Membresías desde 20 horas, carga aérea y más. ¡Cotiza ya!.
+  en: Rent a private jet in Mexico for any ocassion. National and international flights. Memberships from 20 hours, air freight and more. Request a quote today!
+index:
+  es: index.md
+  en: en/index.md
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://controljets.com" # the base hostname & protocol for your site, e.g. http://example.com
 
 
 # Build settings

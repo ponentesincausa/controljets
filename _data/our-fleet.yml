@@ -1,0 +1,32 @@
+es:
+  title: Nuestra flota
+  first-plane: Hawker 700A
+  first-passengers: 8-9 pasajeros
+  first-passengers-liner: cómodamente sentados
+  first-flight: 4.5 horas de vuelo
+  first-flight-liner: o un rango de 2,000 millas
+  first-capacity: 40 pies cúbicos
+  first-capacity-liner: de equipaje
+  second-plane: Hawker 800XP
+  second-passengers: 9-10 pasajeros
+  second-passengers-liner: cómodamente sentados
+  second-flight: 5 horas de vuelo
+  second-flight-liner: o un rango de 3,000 millas
+  second-capacity: 50 pies cúbicos
+  second-capacity-liner: de equipaje
+en:
+  title: Meet our fleet
+  first-plane: Hawker 700A
+  first-passengers: 8-9 passengers
+  first-passengers-liner: comfortably seated
+  first-flight: 4.5 hour flights
+  first-flight-liner: or a 2,000 mile range
+  first-capacity: 40 squared feet
+  first-capacity-liner: luggage capacity
+  second-plane: Hawker 800XP
+  second-passengers: 9-10 passengers
+  second-passengers-liner: comfortably seated
+  second-flight: 5 hour flights
+  second-flight-liner: or a 3,000 mile range
+  second-capacity: 50 squared feet
+  second-capacity-liner: luggage capacity

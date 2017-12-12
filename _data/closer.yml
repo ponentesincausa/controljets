@@ -1,0 +1,12 @@
+es:
+  title: Cotización inmediata
+  airport: Aeropuerto Internacional de Toluca
+  airport-liner: Toluca de Lerdo
+  airport-link: https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15058.788204472048!2d-99.5698355!3d19.3389479!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x32b410ec2b6e1e99!2sAeropuerto+Internacional+de+Toluca!5e0!3m2!1ses-419!2smx!4v1507176511053?hl=es
+  email: Correo
+en:
+  title: Request a quote today
+  airport: Toluca International Airport
+  airport-liner: Toluca, State of Mexico
+  airport-link: https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15058.788204472048!2d-99.5698355!3d19.3389479!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x32b410ec2b6e1e99!2sAeropuerto+Internacional+de+Toluca!5e0!3m2!1ses-419!2smx!4v1507176511053?hl=en
+  email: Email
