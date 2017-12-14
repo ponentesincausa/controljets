@@ -6,6 +6,8 @@ description: Te presentamos los artículos indispensables que no puedes olvidar 
 img: 4-min.jpg # Add image post (optional)
 categories: aviación privada jets
 tags: [jets, aviación privada, jet charter, viajar]
+ref: what-to-pack
+lang: es
 ---
 
 Creo que todos en algún momento hemos soñado con volar en un avión privado. Levantarnos, que nuestro mayodormo meta las maletas en un Mercedes y que el chófer nos lleve hasta el mismo pie de la escalerilla de un jet exclusivo para nosotros

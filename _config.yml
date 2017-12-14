@@ -21,10 +21,9 @@ description:
   es: Renta un jet privado en México para cualquier ocasión. Vuelos nacionales e internacionales. Membresías desde 20 horas, carga aérea y más. ¡Cotiza ya!.
   en: Rent a private jet in Mexico for any ocassion. National and international flights. Memberships from 20 hours, air freight and more. Request a quote today!
 index:
-  es: index.md
-  en: en/index.md
+  es:
+  en: en/
 baseurl: "" # the subpath of your site, e.g. /blog
-
 
 # Build settings
 markdown: kramdown

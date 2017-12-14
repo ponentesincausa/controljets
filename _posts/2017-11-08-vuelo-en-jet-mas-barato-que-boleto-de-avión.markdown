@@ -6,6 +6,8 @@ description: ¿Un billete en un vuelo privado puede estar en el mismo rango de p
 img: 3-min.jpg # Add image post (optional)
 categories: aviación privada jets
 tags: [jets, aviación privada, jet charter, viajar]
+ref: travel-jet-cheaper
+lang: es
 ---
 
 ¿Qué es mejor, comprar o rentar un avión? De acuerdo con expertos, depende de las necesidades del cliente y sobretodo, de su bolsillo.

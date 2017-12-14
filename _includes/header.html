@@ -1,35 +1,31 @@
 <nav class="white nav-fix" role="navigation">
   <div class="nav-wrapper cont-90">
-    <a id="logo-container" href="{{ "/" | relative_url }}" class="brand-logo"><img itemprop="logo" src="/assets/images/sm-logo.png" alt="Logo"></a>
-    {% assign default_paths = site.pages | map: "path" %}
-    {% assign page_paths = site.header_pages | default: default_paths %}
-
+    <a id="logo-container" href="{{ site.baseurl }}/{{ site.index[page.lang] }}" class="brand-logo"><img itemprop="logo" src="/assets/images/sm-logo.png" alt="Logo"></a>
     <ul class="right hide-on-med-and-down top-2">
-      {% if page_paths %}
-          {% for path in page_paths %}
-              {% assign my_page = site.pages | where: "path", path | first %}
+        {% assign pages=site.pages | where:"lang", page.lang %}
+          {% for my_page in pages %}
               {% if my_page.title %}
-              <li><a href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a></li>
+              <li><a href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title | escape }}</a></li>
               {% endif %}
           {% endfor %}
-      {% endif %}
-      <li><a href="{{ '/' | relative_url }}#nuestra-flota">Nuestra flota</a></li>
-      <li><a href="https://paypal.me/controljets">Pago seguro</a></li>
+
+      <li><a href="{{ site.data.other-data[page.lang].fleet-url }}">{{ site.data.other-data[page.lang].fleet }}</a></li>
+      <li><a href="https://paypal.me/controljets">{{ site.data.other-data[page.lang].payment }}</a></li>
+      <li><a href="{{ site.data.other-data[page.lang].langurl }}"><img src="{{ site.data.other-data[page.lang].flag }}" alt="{{ site.data.other-data[page.lang].lang }}" class="flag"></a></li>
       <!-- <li><a href="https://medium.com/@controljets">Blog</a></li> -->
     </ul>
 
     <ul id="nav-mobile" class="side-nav">
-      <li><a href="{{ '/' | relative_url }}#nuestra-flota">Nuestra flota</a></li>
-      {% if page_paths %}
-          {% for path in page_paths %}
-            {% assign my_page = site.pages | where: "path", path | first %}
-              {% if my_page.title %}
-                <li><a href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a></li>
-              {% endif %}
-          {% endfor %}
-      {% endif %}
-      <li><a href="https://paypal.me/controljets">Pago seguro</a></li>
-      <!-- <li><a href="https://medium.com/@controljets">Blog</a></li> -->
+      {% for my_page in pages %}
+          {% if my_page.title %}
+          <li><a href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title | escape }}</a></li>
+          {% endif %}
+      {% endfor %}
+
+          <li><a href="{{ site.data.other-data[page.lang].fleet-url }}">{{ site.data.other-data[page.lang].fleet }}</a></li>
+          <li><a href="https://paypal.me/controljets">{{ site.data.other-data[page.lang].payment }}</a></li>
+          <li><a href="{{ site.data.other-data[page.lang].langurl }}"><img src="{{ site.data.other-data[page.lang].flag }}" alt="{{ site.data.other-data[page.lang].lang }}" class="flag"></a></li>
+
     </ul>
     <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
   </div>

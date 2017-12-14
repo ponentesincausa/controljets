@@ -3,7 +3,7 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <title>{{ site.title }} | {% if page.url == "/" %} Best private Jet Charter in Mexico {% else %} {{ page.title }} {% endif %}</title>
+  <title>{{ site.title[page.lang] }} | {% if page.ref == "index" %} Best private Jet Charter in Mexico {% else %} {{ page.title }} {% endif %}</title>
   {% if page.description %}<meta name="description" content="{{ page.description }}">{% else %} <meta name="description" content="Renta un jet privado en México para cualquier ocasión. Vuelos nacionales e internacionales. Membresías desde 20 horas, carga aérea y más. ¡Cotiza ya!"> {% endif %}
 
   <!-- CSS  -->

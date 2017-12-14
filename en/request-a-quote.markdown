@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Cotización inmediata
-lang: es
+title: Request a quote today
+lang: en
 ref: quote
 # permalink: /cotiza-ya.html
 ---

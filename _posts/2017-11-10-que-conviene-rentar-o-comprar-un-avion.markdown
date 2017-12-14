@@ -6,6 +6,8 @@ description: Antes de decidirte a comprar una aeronave, deberás analizar cuales
 img: 2-min.jpg # Add image post (optional)
 categories: aviación privada jets
 tags: [jets, aviación privada, jet charter, viajar]
+ref: buy-or-rent
+lang: es
 ---
 
 ¿Qué es mejor, comprar o rentar un avión? De acuerdo con expertos, depende de las necesidades del cliente y sobretodo, de su bolsillo.

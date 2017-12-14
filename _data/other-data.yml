@@ -1,0 +1,14 @@
+es:
+  fleet: Nuestra flota
+  fleet-url: /#nuestra-flota
+  payment: Pago seguro
+  lang: English
+  langurl: /en/
+  flag: /assets/images/flag-us.png
+en:
+  fleet: Our fleet
+  fleet-url: /en/#nuestra-flota
+  payment: Secure payment
+  lang: Español
+  langurl: /
+  flag: /assets/images/flag-mx.png

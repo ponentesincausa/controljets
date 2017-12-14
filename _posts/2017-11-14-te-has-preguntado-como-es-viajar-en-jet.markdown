@@ -6,6 +6,8 @@ description: ¿Algunas vez te has preguntado cómo es viajar en un jet? Te prese
 img: 1-min.png # Add image post (optional)
 categories: aviación privada jets
 tags: [jets, aviación privada, jet charter, viajar]
+ref: travel-in-jet
+lang: es
 ---
 
 No hay nada que esté jet no pueda hacer. La comodidad incomparable de la cabina y el ambiente son algunas de las características del Hawker 700A elevando el confort a un nuevo nivel. Un equilibrio perfecto para cubrir todas las expectativas que los ejecutivos y viajeros pueden esperar.
