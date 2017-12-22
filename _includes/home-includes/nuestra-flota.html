@@ -5,8 +5,9 @@
       <div class="row">
         <h3 class="mdi-content-send center-align gray-text text-darken-4 emph">{{ site.data.our-fleet[page.lang].title }}</h3>
 
-      {% for jet_hash in site.data.jets %}
-        {% assign jet = jet_hash[1] %}
+        {% for jet_hash in site.data.jets reversed %}
+          {% assign jet = jet_hash[1] %}
+
         <div itemscope itemtype="http://schema.org/Vehicle">
             <div class="col s12">
               <h4 class="gray-text text-darken-4 emph" itemprop="name">{{ jet[page.lang].plane }}</h4>
