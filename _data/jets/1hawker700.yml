@@ -1,0 +1,25 @@
+es:
+  plane: Hawker 700A
+  describer: Medium size aircraft
+  passengers: 8-9 pasajeros
+  passengers-liner: cómodamente sentados
+  flight: 4.5 horas de vuelo
+  flight-liner: o un rango de 2,000 millas
+  capacity: 40 pies cúbicos
+  capacity-liner: de equipaje
+  img-1: /assets/img/700-1-min.png
+  img-2: /assets/img/700-2-min.png
+  img-3: /assets/img/700-3-min.png
+  floor: /assets/img/700a-floor-min.png
+en:
+  plane: Hawker 700A
+  passengers: 8-9 passengers
+  passengers-liner: comfortably seated
+  flight: 4.5 hour flights
+  flight-liner: or a 2,000 mile range
+  capacity: 40 squared feet
+  capacity-liner: luggage capacity
+  img-1: /assets/img/700-1-min.png
+  img-2: /assets/img/700-2-min.png
+  img-3: /assets/img/700-3-min.png
+  floor: /assets/img/700a-floor-min.png
