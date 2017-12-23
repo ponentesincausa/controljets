@@ -1,0 +1,26 @@
+es:
+  plane: Cessna 414
+  describer: Medium size aircraft
+  passengers: 7 pasajeros
+  passengers-liner: cómodamente sentados
+  flight: 3 horas de vuelo
+  flight-liner: o un rango de 1,500 millas
+  capacity: 30 pies cúbicos
+  capacity-liner: de equipaje
+  img-1: /assets/img/cessna-min.jpg
+  img-2: /assets/img/cessna-2-min.jpg
+  img-3: /assets/img/cessna-3-min.jpg
+  floor: /assets/img/cessna-floor.png
+en:
+  plane: Cessna 414
+  describer: Medium size aircraft
+  passengers: 7 passengers
+  passengers-liner: comfortably seated
+  flight: 3 hour flights
+  flight-liner: or a 1,500 mile range
+  capacity: 30 squared feet
+  capacity-liner: luggage capacity
+  img-1: /assets/img/cessna-min.jpg
+  img-2: /assets/img/cessna-2-min.jpg
+  img-3: /assets/img/cessna-3-min.jpg
+  floor: /assets/img/cessna-floor.png
