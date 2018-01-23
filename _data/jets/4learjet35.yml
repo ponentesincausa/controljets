@@ -1,0 +1,25 @@
+es:
+  plane: Learjet 35 
+  describer: Light size aircraft
+  passengers: 7 pasajeros
+  passengers-liner: cómodamente sentados
+  flight: 4 horas de vuelo
+  flight-liner: o un rango de 3,000 millas
+  capacity: 40 pies cúbicos
+  capacity-liner: de equipaje
+  img-1: /assets/lear35-1-min.jpg
+  img-2: /assets/img/learjet35-exterior-min.jpg
+  img-3: /assets/img/lear35-3-min.jpg
+  floor: /assets/img/lear35-floormin.jpg
+en:
+  plane: Learjet 35 
+  passengers: 7 passengers
+  passengers-liner: comfortably seated
+  flight: 4 hour flights
+  flight-liner: or a 3,000 mile range
+  capacity: 40 squared feet
+  capacity-liner: luggage capacity
+  img-1: /assets/lear35-1-min.jpg
+  img-2: /assets/img/learjet35-exterior-min.jpg
+  img-3: /assets/img/lear35-3-min.jpg
+  floor: /assets/img/lear35-floormin.jpg
