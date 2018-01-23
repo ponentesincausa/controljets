@@ -7,7 +7,7 @@ es:
   flight-liner: o un rango de 3,000 millas
   capacity: 40 pies cúbicos
   capacity-liner: de equipaje
-  img-1: /assets/lear35-1-min.jpg
+  img-1: 
   img-2: /assets/img/learjet35-exterior-min.jpg
   img-3: /assets/img/lear35-3-min.jpg
  
@@ -19,7 +19,7 @@ en:
   flight-liner: or a 3,000 mile range
   capacity: 40 squared feet
   capacity-liner: luggage capacity
-  img-1: /assets/lear35-1-min.jpg
+  img-1: 
   img-2: /assets/img/learjet35-exterior-min.jpg
   img-3: /assets/img/lear35-3-min.jpg
 
