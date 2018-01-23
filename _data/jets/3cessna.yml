@@ -1,6 +1,6 @@
 es:
   plane: Cessna 414
-  describer: Medium size aircraft
+  describer: light size aircraft
   passengers: 7 pasajeros
   passengers-liner: cómodamente sentados
   flight: 3 horas de vuelo
@@ -13,7 +13,7 @@ es:
   floor: /assets/img/cessna-floor.png
 en:
   plane: Cessna 414
-  describer: Medium size aircraft
+  describer: light size aircraft
   passengers: 7 passengers
   passengers-liner: comfortably seated
   flight: 3 hour flights
