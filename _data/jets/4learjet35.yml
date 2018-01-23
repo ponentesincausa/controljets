@@ -10,7 +10,7 @@ es:
   img-1: /assets/lear35-1-min.jpg
   img-2: /assets/img/learjet35-exterior-min.jpg
   img-3: /assets/img/lear35-3-min.jpg
-  floor: /assets/img/lear35-floormin.jpg
+ 
 en:
   plane: Learjet 35 
   passengers: 7 passengers
@@ -22,4 +22,4 @@ en:
   img-1: /assets/lear35-1-min.jpg
   img-2: /assets/img/learjet35-exterior-min.jpg
   img-3: /assets/img/lear35-3-min.jpg
-  floor: /assets/img/lear35-floormin.jpg
+
