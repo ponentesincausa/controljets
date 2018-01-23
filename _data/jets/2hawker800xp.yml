@@ -13,6 +13,7 @@ es:
   floor: /assets/img/800xp-floor-min.png
 en:
   plane: Hawker 800XP
+  describer: Medium size aircraft
   passengers: 9-10 passengers
   passengers-liner: comfortably seated
   flight: 5 hour flights
