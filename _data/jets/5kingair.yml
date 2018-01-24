@@ -7,8 +7,8 @@ es:
   flight-liner: o un rango de 2,500 millas
   capacity: 60 pies cúbicos
   capacity-liner: de equipaje
-  img-1: /assets/img/king350-2-min.png
-  img-2: /assets/img/king350-1-min.png
+  img-1: /assets/img/king350-1-min.png
+  img-2: /assets/img/king350-2-min.png
   img-3: /assets/img/king350-3-min.png
   floor: /assets/img/king350-floor-min.png
 en:
@@ -19,7 +19,7 @@ en:
   flight-liner: or a 2,500 mile range
   capacity: 60 squared feet
   capacity-liner: luggage capacity
-  img-1: /assets/img/king350-2-min.png
-  img-2: /assets/img/king350-1-min.png
+  img-1: /assets/img/king350-1-min.png
+  img-2: /assets/img/king350-2-min.png
   img-3: /assets/img/king350-3-min.png
   floor: /assets/img/king350-floor-min.png
