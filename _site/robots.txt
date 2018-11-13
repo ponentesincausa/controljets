@@ -1,0 +1,3 @@
+User-Agent: *
+
+sitemap: https://controljets.com/sitemap.xml
