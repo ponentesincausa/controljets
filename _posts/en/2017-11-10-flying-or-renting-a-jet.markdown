@@ -1,11 +1,21 @@
 ---
+title: What is best? To rent, or buy a jet?
+date: 2017-11-10 19:48:00 Z
+categories:
+- private
+- flight
+- jets
+tags:
+- jets
+- private aviation
+- jet charter
+- travel
 layout: post
-title:  What is best? To rent, or buy a jet?
-date:   2017-11-10 13:48:00 -0600
-description: Before deciding if you should buy an aircraft, you should compare your needs and prices; if your or your company have 300 hours of flights a year, you might as well buy a plane, but if travel time is less, renting is recommended,  experts said. # Add post description (optional)
-img: 2-min.jpg # Add image post (optional)
-categories: private flight jets
-tags: [jets, private aviation, jet charter, travel]
+description: Before deciding if you should buy an aircraft, you should compare your
+  needs and prices; if your or your company have 300 hours of flights a year, you
+  might as well buy a plane, but if travel time is less, renting is recommended,  experts
+  said.
+img: 2-min.jpg
 ref: buy-or-rent
 lang: en
 ---

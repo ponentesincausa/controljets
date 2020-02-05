@@ -1,11 +1,19 @@
 ---
+title: Can a flight in a Jet privado be cheaper than a plane ticket?
+date: 2017-11-08 19:48:00 Z
+categories:
+- private
+- aviation
+- jets
+tags:
+- jets
+- private aviation
+- jet charter
+- travel
 layout: post
-title:  Can a flight in a Jet privado be cheaper than a plane ticket?
-date:   2017-11-08 13:48:00 -0600
-description: Can a ticket in a private flight be in the same price range than a commercial flight? # Add post description (optional)
-img: 3-min.jpg # Add image post (optional)
-categories: private aviation jets
-tags: [jets, private aviation, jet charter, travel]
+description: Can a ticket in a private flight be in the same price range than a commercial
+  flight?
+img: 3-min.jpg
 ref: travel-jet-cheaper
 lang: en
 ---

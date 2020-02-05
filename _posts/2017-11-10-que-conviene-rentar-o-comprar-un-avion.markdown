@@ -1,11 +1,21 @@
 ---
+title: "¿Qué te conviene más, comprar o rentar un avión?"
+date: 2017-11-10 19:48:00 Z
+categories:
+- aviación
+- privada
+- jets
+tags:
+- jets
+- aviación privada
+- jet charter
+- viajar
 layout: post
-title:  ¿Qué te conviene más, comprar o rentar un avión?
-date:   2017-11-10 13:48:00 -0600
-description: Antes de decidirte a comprar una aeronave, deberás analizar cuales son tus necesidades y si está al alcance de tu bolsillo; si una compañía o empresario tiene en promedio 300 horas-vuelo al año, se justifica adquirir un avión, pero si el tiempo es menor, es recomendable rentar,  consideraron expertos. 700. # Add post description (optional)
-img: 2-min.jpg # Add image post (optional)
-categories: aviación privada jets
-tags: [jets, aviación privada, jet charter, viajar]
+description: Antes de decidirte a comprar una aeronave, deberás analizar cuales son
+  tus necesidades y si está al alcance de tu bolsillo; si una compañía o empresario
+  tiene en promedio 300 horas-vuelo al año, se justifica adquirir un avión, pero si
+  el tiempo es menor, es recomendable rentar,  consideraron expertos. 700.
+img: 2-min.jpg
 ref: buy-or-rent
 lang: es
 ---

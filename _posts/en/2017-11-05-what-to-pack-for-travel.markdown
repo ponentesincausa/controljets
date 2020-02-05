@@ -1,11 +1,19 @@
 ---
+title: What to pack for any business travel
+date: 2017-11-05 19:48:00 Z
+categories:
+- private
+- aviation
+- jets
+tags:
+- jets
+- private aviation
+- jet charter
+- travel
 layout: post
-title:  What to pack for any business travel
-date:   2017-11-05 13:48:00 -0600
-description: Here are the most important things you need to pack on a flight of this type. # Add post description (optional)
-img: 4-min.jpg # Add image post (optional)
-categories: private aviation jets
-tags: [jets, private aviation, jet charter, travel]
+description: Here are the most important things you need to pack on a flight of this
+  type.
+img: 4-min.jpg
 ref: what-to-pack
 lang: en
 ---

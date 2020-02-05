@@ -1,11 +1,19 @@
 ---
+title: What is it like to travel in a Hawker 700?
+date: 2017-11-14 19:48:00 Z
+categories:
+- aviación
+- privada
+- jets
+tags:
+- jets
+- private flying
+- jet charter
+- travel
 layout: post
-title:  What is it like to travel in a Hawker 700?
-date:   2017-11-14 13:48:00 -0600
-description: Have you ever wondered how is it to travel in a jet? We introduce you to the Hawker 700. # Add post description (optional)
-img: 1-min.png # Add image post (optional)
-categories: aviación privada jets
-tags: [jets, private flying, jet charter, travel]
+description: Have you ever wondered how is it to travel in a jet? We introduce you
+  to the Hawker 700.
+img: 1-min.png
 ref: travel-in-jet
 lang: en
 ---
