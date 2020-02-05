@@ -32,8 +32,6 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
 
-# sitemap settings
-url: "http://controljets.com" # the base hostname & protocol for your site
 
 
 
